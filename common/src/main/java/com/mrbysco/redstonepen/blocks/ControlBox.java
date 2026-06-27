@@ -708,7 +708,7 @@ public class ControlBox {
 					return c;
 				}));
 				tooltips.add(new TooltipDisplay.TipRange(getGuiLeft() + 196, getGuiTop() + 14, 16, 16, () ->
-						(errors_.isEmpty()) ? (Component.empty()) : (Auxiliaries.localizable(tooltip_prefix + ".error." + errors_.get(0).getB()))
+						(errors_.isEmpty()) ? (Component.empty()) : (Auxiliaries.localizable(tooltip_prefix + ".error." + errors_.getFirst().getB()))
 				));
 				tooltips.add(new TooltipDisplay.TipRange(getGuiLeft() + 18, getGuiTop() + 12, 5, 8, Auxiliaries.localizable(tooltip_prefix + ".help.1")));
 				tooltips.add(new TooltipDisplay.TipRange(getGuiLeft() + 18, getGuiTop() + 22, 5, 3, Auxiliaries.localizable(tooltip_prefix + ".help.2")));
@@ -787,8 +787,8 @@ public class ControlBox {
 							cb_error_indicator.setY(0);
 							cb_error_indicator.tooltip(Component.empty());
 						} else {
-							Guis.Coord2d exy = textbox.getCoordinatesAtIndex(errors_.get(0).getA());
-							cb_error_indicator.tooltip(Auxiliaries.localizable(tooltip_prefix + ".error." + errors_.get(0).getB()));
+							Guis.Coord2d exy = textbox.getCoordinatesAtIndex(errors_.getFirst().getA());
+							cb_error_indicator.tooltip(Auxiliaries.localizable(tooltip_prefix + ".error." + errors_.getFirst().getB()));
 							cb_error_indicator.visible = true;
 							cb_error_indicator.setX(exy.x);
 							cb_error_indicator.setY(exy.y + textbox.getLineHeight());
@@ -1455,7 +1455,7 @@ public class ControlBox {
 				}
 
 				public int calc(Map<String, Integer> mem) {
-					return -arguments.get(0).calc(mem);
+					return -arguments.getFirst().calc(mem);
 				}
 			}
 
@@ -1465,7 +1465,7 @@ public class ControlBox {
 				}
 
 				public int calc(Map<String, Integer> mem) {
-					return (arguments.get(0).calc(mem) == 0) ? bool_true() : bool_false();
+					return (arguments.getFirst().calc(mem) == 0) ? bool_true() : bool_false();
 				}
 			}
 

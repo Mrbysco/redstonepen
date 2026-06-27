@@ -194,7 +194,7 @@ public class Networking {
 				payload.putString("msg", Auxiliaries.serializeTextComponent(message, player.registryAccess()));
 				Services.PLATFORM.sendToClient(player, PACKET_ID, payload);
 			} catch (Throwable e) {
-				Auxiliaries.logger().error("OverlayTextMessage.toBytes() failed: " + e);
+				Auxiliaries.logger().error("OverlayTextMessage.toBytes() failed: {}", String.valueOf(e));
 			}
 		}
 	}
