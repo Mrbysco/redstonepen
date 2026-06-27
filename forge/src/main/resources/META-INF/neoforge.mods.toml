@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+issueTrackerURL="https://github.com/Mrbysco/redstonepen/issues"
+license="MIT"
+
+[[mods]]
+modId="redstonepen"
+version="${file.jarVersion}"
+displayName="Redstone Pen"
+displayURL="https://github.com/mrbysco/redstonepen"
+authors="Mrbysco, wilechaote"
+description='''
+Adds a pen to draw detailed Redstone tracks, as well as Redstone relays, and the Redstone Logic Controller.
+'''
+updateJSONURL="https://raw.githubusercontent.com/stfwi/redstonepen/versions/neoforge-1.21.json"
+logoFile="assets/redstonepen/logo.png"
+
+[[dependencies.redstonepen]]
+modId="minecraft"
+type="REQUIRED"
+versionRange="[1.21,1.21.1)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.redstonepen]]
+modId="neoforge"
+type="REQUIRED"
+versionRange="[21.0.0-beta,)"
+ordering="NONE"
+side="BOTH"

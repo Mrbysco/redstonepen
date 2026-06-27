@@ -1,43 +1,23 @@
+# eclipse
 bin
 *.launch
 .settings
 .metadata
 .classpath
 .project
+
+# idea
 out
 *.ipr
 *.iws
 *.iml
-.idea
+.idea/*
+!.idea/scopes
+
+# gradle
 build
 .gradle
-*.tmp
-*.log
-*.jks
+
+# other
 eclipse
 run
-tests
-signing.*
-src/main/java/archive
-src/main/resources/assets/minecraft
-src/generated
-.vscode
-/dist
-/runs
-/classes
-/dev
-/tmp
-/archive
-/assets-src
-.gimp
-*.xcf
-desktop.ini
-.DS_Store
-Thumbs.db
-forge*changelog.txt
-/*.txt
-
-## Initial testing:
-# RedstoneTrack.java
-# ControlBox.java
-# CircuitComponents.java
