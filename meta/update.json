@@ -1,5 +1,5 @@
 {
- "homepage": "https://github.com/stfwi/redstonepen",
+ "homepage": "https://github.com/mrbysco/redstonepen",
  "1.21": {
   "1.11.42": "[F] Redstone Remote compat issue fixed (issue #63, ty petio).\n[F] Fixed RLC custom label retention when breaking (#59, ty toastonrye).\n[F] Fixed RLC UI documentation hint contrast (issue #61).\n[F] Fixed Track source direction update (issue #58, ty tnoppeney).",
   "1.11.41": "[A] Redstone Remote can now enable/disable Redstone Logic Controls.\n[M] Adapted Pen bulk connector placement (no sneak required now).",
