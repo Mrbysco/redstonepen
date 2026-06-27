@@ -8,7 +8,7 @@ Redstone tracks more accurately. Inspired by the Redstone Paste mod.
 
 Adds "one pen to draw them all" - and helps with simpler Redstone handling.
 
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/pentracks.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/pentracks.png?raw=true)
 
 ### Redstone Quill and Pen Items
 
@@ -34,7 +34,7 @@ simply add an explicit connector by clicking the centre of a Track with a Pen (s
 image). Tracks do intentionally not pass indirect power (through blocks) to other Tracks, so you can power
 said blocks from independent routes without interferences:
 
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/rspen-connector.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/rspen-connector.png?raw=true)
 
 ### Redstone Relays
 
@@ -56,12 +56,12 @@ blocks.
 - **Pulse Redstone Relay:** Emits a short pulse at the output side when detecting a off-to-on transition
   at the input ("rising edge").
 
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/relays.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/relays.png?raw=true)
 
 - **Bridging Relay:** A Redstone Relay allowing to cross tracks. It forwards power back to front like a
   normal Relay, and has an additional independent wire left-to-right.
 
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/bridging-relay.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/bridging-relay.png?raw=true)
 
 
 ### Redstone Logic Control
@@ -69,15 +69,15 @@ blocks.
 Simplified PLC-like, text code based signal controller. Details
 are in a in the [documentation here](https://github.com/Mrbysco/redstonepen/tree/master/documentation/redstone-logic-control/readme.md);
 
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/redstone-logic-control-1.png)
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/redstone-logic-control-2.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/redstone-logic-control-1.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/redstone-logic-control-2.png)
 
 
 ### Recipes
 
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/rspen-quill-recipe.png)
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/rspen-penrecipe.png)
-![](https://github.com/Mrbysco/redstonepen/tree/master/documentation/relay-recipe1.png)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/rspen-quill-recipe.png?raw=true)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/rspen-penrecipe.png?raw=true)
+![](https://github.com/Mrbysco/redstonepen/blob/master/documentation/relay-recipe1.png?raw=true)
 
 ## Community and References
 
